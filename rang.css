@@ -1,0 +1,18 @@
+body {
+  background: black;  
+  overflow: hidden;
+}
+.wrap {
+  transform: rotate(95deg);
+  width: 0;
+  height: 0;
+  margin: 350px auto 0 auto;
+}
+.circle {
+   box-shadow: inset 0px 0px 30px 30px #ddaadd,-20px 20px 7px 10px #de667c,-40px 40px 7px 10px yellow,-60px 60px 10px 10px red,-80px 80px 7px 10px white,-100px 100px 10px 30px green,-120px 120px 30px 30px orange,-140px 140px 10px 30px red,-160px 160px 10px 30px darkred,-180px 180px 10px 40px #f589ef;
+  transform: rotate(5deg);
+  animation: myanim 15s ease-in-out infinite;}
+@keyframes myanim{
+10%,30%{transform:rotate(10deg);}
+20%,40%,100%{transform:rotate(20deg);}
+100%{transform:rotate(0deg);}}
